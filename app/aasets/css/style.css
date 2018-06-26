@@ -1,0 +1,69 @@
+body{font-family: 'Rubik', sans-serif;}
+#loginPage{width:500px;margin:auto;margin-top:10%;font-family: 'Roboto', sans-serif;}
+
+#login{width:100%;background:#2c3e50;}
+#login{height:70px;}
+.yellow{background-color:gold;}
+
+#buttons{height:100px;background:#2c3e50;}
+#buttons > p {width:49.95%;float:left;color:white;text-align:center;padding-top:25px;height:75%;margin:0;}
+#buttons > p:hover{background:#f1c40f;color:#2c3e50;cursor:pointer;}
+#first,#last,#confirm{width:250px;}
+#directory{width:175px;}
+#password{width:125px;margin-left:6px !important;}
+
+
+#login > #directory,#login > #password,#login >button{width:250px;margin-left:125px !important;margin-top:20px;height:25px;}
+.error {
+  color: red;
+  display: inline-block;
+  margin-left: 130px;
+}
+.planets-component .planets-container {
+  padding: 15px !important;
+}
+
+.planets-component .planets {
+  display: inline-block;
+  color: #fff;
+  height: 100px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 5px 5px 0;
+  box-sizing: content-box;
+}
+
+.planets-component .planets span {
+  display: block;
+}
+
+.loggedin-user {
+  padding: 15px;
+  font-size: 20px;
+}
+
+.input-group {
+    float: left;
+    width: 350px;
+    height: 30px;
+    margin-top: 25px;
+    margin-left: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.ais-search-box {
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+}
+.heading {
+    margin-left: 30px
+}
+
+.dir {
+  margin-top: 10px
+}
+
+.fa-folder:before {
+  margin-left: -22px;
+}
